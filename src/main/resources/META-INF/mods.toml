@@ -2,19 +2,19 @@ modLoader="javafml" #mandatory
 loaderVersion="[30,)" #mandatory (28 is current forge version)
 issueTrackerURL="http://my.issue.tracker/" #optional
 [[mods]] #mandatory
-modId="examplemod"
-version="${file.jarVersion}" #mandatory
+modId="takunologymod"
+version="alpha 1.0.0" #mandatory
 displayName="Takunology Mod" #mandatory
 updateJSONURL="http://myurl.me/" #optional
 displayURL="https://blog.takunology.jp/" #optional
-logoFile="examplemod.png" #optional
+logoFile="logo.png" #optional
 credits="Thanks for this example mod goes to Java" #optional
 authors="Takunology" #optional
 description='''
 This is my first modding.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.examplemod]] #optional
+[[dependencies.takunologymod]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -26,7 +26,7 @@ This is my first modding.
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 # Here's another dependency
-[[dependencies.examplemod]]
+[[dependencies.takunologymod]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.15.1]"
