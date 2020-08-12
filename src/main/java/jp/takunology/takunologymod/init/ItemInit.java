@@ -28,5 +28,6 @@ public class ItemInit
         .food(new Food.Builder().hunger(2).saturation(1.4f).setAlwaysEdible()
         .effect(new EffectInstance(Effects.FIRE_RESISTANCE, 600, 1), 0.8f).build()))
         .setRegistryName("curry_rice"));
+    
     }
 }

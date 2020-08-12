@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "item": "minecraft:beef"
+        },
+        {
+            "item": "minecraft:bowl"
+        },
+        {
+            "item": "minecraft:carrot"
+        },
+        {
+            "item": "minecraft:potato"
+        },
+        {
+            "item": "takunologymod:riceball"
+        }
+    ],
+    "result":{
+        "item": "takunologymod:curry_rice",
+        "count": "5"
+    }
+}

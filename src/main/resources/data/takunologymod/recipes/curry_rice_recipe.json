@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":[
+        " M ",
+        "PRC",
+        " B "
+    ],
+    "key":{
+        "M": {
+            "item": "minecraft:beef"
+        },
+        "C": {
+            "item": "minecraft:carrot"
+        },
+        "R": {
+            "item": "takunologymod:riceball"
+        },
+        "P": {
+            "item": "minecraft:potato"
+        },
+        "B": {
+            "item": "minecraft:bowl"
+        }
+    },
+    "result":{
+        "item": "takunologymod:curry_rice"
+    }
+}
