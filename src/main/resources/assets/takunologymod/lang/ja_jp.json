@@ -1,4 +1,7 @@
 {
     "item.takunologymod.riceball": "おにぎり", 
-    "item.takunologymod.curry_rice": "カレーライス"
+    "item.takunologymod.curry_rice": "カレーライス",
+    "item.takunologymod.pizza": "ピザ",
+
+    "block.takunologymod.dice_block": "サイコロブロック"
 }

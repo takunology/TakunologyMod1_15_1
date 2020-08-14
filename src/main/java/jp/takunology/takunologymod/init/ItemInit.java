@@ -18,6 +18,9 @@ public class ItemInit
 {
     public static final Item riceball = null;
     public static final Item curry_rice = null;
+    
+    public static final Item pizza = new Item (new Item.Properties().group(ItemGroup.FOOD)
+    .food(new Food.Builder().hunger(6).saturation(1.4f).setAlwaysEdible().build())).setRegistryName("pizza");
 
     @SubscribeEvent
     public static void registerItems(final RegistryEvent.Register<Item> event)
@@ -26,8 +29,9 @@ public class ItemInit
         
         event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD)
         .food(new Food.Builder().hunger(2).saturation(1.4f).setAlwaysEdible()
-        .effect(new EffectInstance(Effects.FIRE_RESISTANCE, 600, 1), 0.8f).build()))
+        .effect(new EffectInstance(Effects.LUCK, 1200, 2), 0.8f).build()))
         .setRegistryName("curry_rice"));
-    
+        
+        event.getRegistry().register(pizza);
     }
 }

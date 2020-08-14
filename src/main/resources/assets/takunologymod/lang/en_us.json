@@ -1,4 +1,7 @@
 {
     "item.takunologymod.riceball": "Riceball",
-    "item.takunologymod.curry_rice": "Curry and rice"
+    "item.takunologymod.curry_rice": "Curry and rice",
+    "item.takunologymod.pizza": "Pizza",
+
+    "block.takunologymod.dice_block": "Dice Block"
 }
