@@ -3,5 +3,15 @@
     "item.takunologymod.curry_rice": "Curry and rice",
     "item.takunologymod.pizza": "Pizza",
 
-    "block.takunologymod.dice_block": "Dice Block"
+    "item.takunologymod.takunolo_ingot": "Takunolo Ingot",
+
+    "item.takunologymod.takunolo_sword": "Takunolo Sword",
+    "item.takunologymod.takunolo_axe": "Takunolo Axe",
+    "item.takunologymod.takunolo_hoe": "Takunolo Hoe",
+    "item.takunologymod.takunolo_pickaxe": "Takunolo Pickaxe",
+    "item.takunologymod.takunolo_shovel": "Takunolo Shovel",
+
+    "block.takunologymod.dice_block": "Dice Block",
+
+    "itemGroup.takunologymod": "Takunology Mod"
 }

@@ -1,12 +1,12 @@
 package jp.takunology.takunologymod.init;
 
 import jp.takunology.takunologymod.TakunologyMod;
+import jp.takunology.takunologymod.items.Foods;
+import jp.takunology.takunologymod.items.Ingots;
+import jp.takunology.takunologymod.tools.TakunoloTools;
+
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraft.item.Food;
-import net.minecraft.potion.Effects;
-import net.minecraft.potion.EffectInstance;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
@@ -16,22 +16,27 @@ import net.minecraftforge.registries.ObjectHolder;
 @ObjectHolder(TakunologyMod.MOD_ID)
 public class ItemInit
 {
-    public static final Item riceball = null;
-    public static final Item curry_rice = null;
-    
-    public static final Item pizza = new Item (new Item.Properties().group(ItemGroup.FOOD)
-    .food(new Food.Builder().hunger(6).saturation(1.4f).setAlwaysEdible().build())).setRegistryName("pizza");
+    @SubscribeEvent
+    public static void registerFoods(final RegistryEvent.Register<Item> event)
+    {       
+        event.getRegistry().register(Foods.riceball);
+        event.getRegistry().register(Foods.curry_rice);
+        event.getRegistry().register(Foods.pizza);
+    }
 
     @SubscribeEvent
-    public static void registerItems(final RegistryEvent.Register<Item> event)
-    {
-        event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD)).setRegistryName("riceball"));
-        
-        event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD)
-        .food(new Food.Builder().hunger(2).saturation(1.4f).setAlwaysEdible()
-        .effect(new EffectInstance(Effects.LUCK, 1200, 2), 0.8f).build()))
-        .setRegistryName("curry_rice"));
-        
-        event.getRegistry().register(pizza);
+    public static void registerIngots(final RegistryEvent.Register<Item> event)
+    {       
+        event.getRegistry().register(Ingots.takunolo_ingot);
+    }
+
+    @SubscribeEvent
+    public static void registerTools(final RegistryEvent.Register<Item> event)
+    {       
+        event.getRegistry().register(TakunoloTools.takunolo_sword);
+        event.getRegistry().register(TakunoloTools.takunolo_axe);
+        event.getRegistry().register(TakunoloTools.takunolo_pickaxe);
+        event.getRegistry().register(TakunoloTools.takunolo_shovel);
+        event.getRegistry().register(TakunoloTools.takunolo_hoe);
     }
 }

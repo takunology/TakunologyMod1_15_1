@@ -3,5 +3,15 @@
     "item.takunologymod.curry_rice": "カレーライス",
     "item.takunologymod.pizza": "ピザ",
 
-    "block.takunologymod.dice_block": "サイコロブロック"
+    "item.takunologymod.takunolo_ingot": "たくのろインゴット",
+
+    "item.takunologymod.takunolo_sword": "やたら斬れる剣",
+    "item.takunologymod.takunolo_axe": "すごい斧",
+    "item.takunologymod.takunolo_hoe": "けっこう耕せるクワ",
+    "item.takunologymod.takunolo_pickaxe": "評判のいいツルハシ",
+    "item.takunologymod.takunolo_shovel": "穴掘り名人",
+
+    "block.takunologymod.dice_block": "サイコロブロック",
+
+    "itemGroup.takunologymod": "たくのろじぃMod"
 }
