@@ -1,5 +1,7 @@
 package jp.takunology.takunologymod;
 
+import jp.takunology.takunologymod.world.TakunoloOreGen;
+
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -25,7 +27,7 @@ public class TakunologyMod
 
     private void setup(final FMLCommonSetupEvent event)
     {
-        
+        TakunoloOreGen.generateOre();
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) 

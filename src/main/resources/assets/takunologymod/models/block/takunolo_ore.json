@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "takunologymod:blocks/takunolo_ore"
+    }
+}

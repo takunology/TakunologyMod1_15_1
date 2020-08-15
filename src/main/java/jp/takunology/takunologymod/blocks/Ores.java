@@ -9,6 +9,6 @@ public class Ores
     public static final Block takunolo_ore = new Block(Block.Properties
         .create(Material.ROCK)
         .hardnessAndResistance(0.5f, 15.0f)
-        .sound(SoundType.SAND))
-        .setRegistryName("dice_block");
+        .sound(SoundType.STONE))
+        .setRegistryName("takunolo_ore");
 }
