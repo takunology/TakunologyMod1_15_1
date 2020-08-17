@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "item": "takunologymod:takunolo_ingot"
+      },
+      "title": {
+        "translate": "advancements.root.title"
+      },
+      "description": {
+        "translate": "advancements.root.description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": "minecraft:textures/block/stone.png"
+    },
+    "criteria": {
+      "diamond": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "takunologymod:takunolo_ingot"
+            }
+          ]
+        }
+      }
+    }
+  }

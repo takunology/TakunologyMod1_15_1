@@ -1,0 +1,82 @@
+{
+  "parent": "takunologymod:get_takunolo_ingot",
+  "display": {
+    "icon": {
+      "item": "takunologymod:takunolo_sword"
+    },
+    "title": {
+      "translate": "advancements.takunolo_tools.title"
+    },
+    "description": {
+      "translate": "advancements.takunolo_tools.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "takunolo_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "takunologymod:takunolo_helmet"
+          }
+        ]
+      }
+    },
+    "takunolo_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "takunologymod:takunolo_chest"
+          }
+        ]
+      }
+    },
+    "takunolo_legs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "takunologymod:takunolo_legs"
+          }
+        ]
+      }
+    },
+    "takunolo_feet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "takunologymod:takunolo_feet"
+          }
+        ]
+      }
+    },
+    "takunolo_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "takunologymod:takunolo_sword"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "takunolo_sword",
+      "takunolo_helmet",
+      "takunolo_chest",
+      "takunolo_legs",
+      "takunolo_feet"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

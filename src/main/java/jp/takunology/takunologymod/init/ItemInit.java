@@ -4,6 +4,7 @@ import jp.takunology.takunologymod.TakunologyMod;
 import jp.takunology.takunologymod.items.Foods;
 import jp.takunology.takunologymod.items.Ingots;
 import jp.takunology.takunologymod.tools.TakunoloTools;
+import jp.takunology.takunologymod.armor.TakunoloArmor;
 
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraft.item.Item;
@@ -38,5 +39,14 @@ public class ItemInit
         event.getRegistry().register(TakunoloTools.takunolo_pickaxe);
         event.getRegistry().register(TakunoloTools.takunolo_shovel);
         event.getRegistry().register(TakunoloTools.takunolo_hoe);
+    }
+
+    @SubscribeEvent
+    public static void registerArmor(final RegistryEvent.Register<Item> event)
+    {       
+        event.getRegistry().register(TakunoloArmor.takunolo_helmet);
+        event.getRegistry().register(TakunoloArmor.takunolo_chest);
+        event.getRegistry().register(TakunoloArmor.takunolo_legs);
+        event.getRegistry().register(TakunoloArmor.takunolo_feet);
     }
 }

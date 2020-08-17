@@ -11,6 +11,16 @@
     "item.takunologymod.takunolo_pickaxe": "評判のいいツルハシ",
     "item.takunologymod.takunolo_shovel": "穴掘り名人",
 
+    "item.takunologymod.takunolo_helmet": "たくのろキャップ",
+    "item.takunologymod.takunolo_chest": "たくのろウェア",
+    "item.takunologymod.takunolo_legs": "たくのろジャージ",
+    "item.takunologymod.takunolo_feet": "たくのろシューズ",
+
+    "advancements.root.title": "たくのろインゴット",
+    "advancements.root.description": "たくのろインゴットを手に入れた",
+    "advancements.takunolo_tools.title": "たくのろツール",
+    "advancements.takunolo_tools.description": "たくのろインゴットでツールを作った",
+
     "block.takunologymod.dice_block": "サイコロブロック",
     "block.takunologymod.takunolo_ore": "たくのろ鉱石",
 

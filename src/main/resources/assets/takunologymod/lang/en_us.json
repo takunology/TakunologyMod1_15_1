@@ -11,6 +11,16 @@
     "item.takunologymod.takunolo_pickaxe": "Takunolo Pickaxe",
     "item.takunologymod.takunolo_shovel": "Takunolo Shovel",
 
+    "item.takunologymod.takunolo_helmet": "Takunolo Helmet",
+    "item.takunologymod.takunolo_chest": "Takunolo Chest",
+    "item.takunologymod.takunolo_legs": "Takunolo Legs",
+    "item.takunologymod.takunolo_feet": "Takunolo Legs",
+
+    "advancements.root.title": "Get Takunolo Ingot",
+    "advancements.root.description": "description",
+    "advancements.takunolo_tools.title": "Made Takunology Tools",
+    "advancements.takunolo_tools.description": "description",
+
     "block.takunologymod.dice_block": "Dice Block",
     "block.takunologymod.takunolo_ore": "Takunolo Ore",
 

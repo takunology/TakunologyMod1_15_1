@@ -21,7 +21,7 @@ public class TakunoloOreGen
             if(biome == Biomes.PLAINS)
             {
                 ConfiguredPlacement customConfig = Placement.COUNT_RANGE
-                .func_227446_a_(new CountRangeConfig(20, 5, 5, 25));
+                .func_227446_a_(new CountRangeConfig(50, 5, 5, 30));
             
                 biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, 
                 Feature.ORE.func_225566_b_(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, 
