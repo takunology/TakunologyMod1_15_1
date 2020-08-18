@@ -1,0 +1,31 @@
+{
+  "parent": "takunologymod:takunolo_tools",
+    "display": {
+      "icon": {
+        "item": "takunologymod:arrow_sword"
+      },
+      "title": {
+        "translate": "advancements.arrow_tools.title"
+      },
+      "description": {
+        "translate": "advancements.arrow_tools.description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false,
+      "background": "minecraft:textures/block/stone.png"
+    },
+    "criteria": {
+      "diamond": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "takunologymod:arrow_sword"
+            }
+          ]
+        }
+      }
+    }
+  }

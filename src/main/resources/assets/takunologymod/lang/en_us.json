@@ -3,9 +3,15 @@
     "item.takunologymod.curry_rice": "Curry and rice",
     "item.takunologymod.pizza": "Pizza",
 
+    "item.takunologymod.night_flower": "Night flower",
+    "item.takunologymod.noon_flower": "Noon flower",
+
     "item.takunologymod.takunolo_ingot": "Takunolo Ingot",
+    "item.takunologymod.lightning_ingot": "Lightning Ingot",
 
     "item.takunologymod.takunolo_sword": "Takunolo Sword",
+    "item.takunologymod.arrow_sword": "Arrow Sword",
+
     "item.takunologymod.takunolo_axe": "Takunolo Axe",
     "item.takunologymod.takunolo_hoe": "Takunolo Hoe",
     "item.takunologymod.takunolo_pickaxe": "Takunolo Pickaxe",
@@ -17,9 +23,13 @@
     "item.takunologymod.takunolo_feet": "Takunolo Legs",
 
     "advancements.root.title": "Get Takunolo Ingot",
-    "advancements.root.description": "description",
-    "advancements.takunolo_tools.title": "Made Takunology Tools",
-    "advancements.takunolo_tools.description": "description",
+    "advancements.root.description": "Got Takunolo Ingot",
+    "advancements.takunolo_tools.title": "Made Takunolo Tools",
+    "advancements.takunolo_tools.description": "Made Takunolo Tools",
+    "advancements.takunolo_armor.title": "Takunolo Armor",
+    "advancements.takunolo_armor.description" : "Made Takunolo Armor",
+    "advancements.arrow_tools.title": "Arrow Sword",
+    "advancements.arrow_tools.description" : "Made Arrow Sword",
 
     "block.takunologymod.dice_block": "Dice Block",
     "block.takunologymod.takunolo_ore": "Takunolo Ore",

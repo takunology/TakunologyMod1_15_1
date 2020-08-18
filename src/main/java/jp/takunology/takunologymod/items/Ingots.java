@@ -9,4 +9,8 @@ public class Ingots
     public static final Item takunolo_ingot = new Item(new Item.Properties()
     .group(TakunologyItemGroup.takunologyItemGroup))
     .setRegistryName("takunolo_ingot");
+
+    public static final Item lightning_ingot = new Item(new Item.Properties()
+    .group(TakunologyItemGroup.takunologyItemGroup))
+    .setRegistryName("lightning_ingot");
 }

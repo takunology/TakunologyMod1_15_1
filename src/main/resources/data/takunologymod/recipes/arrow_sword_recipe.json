@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":[
+        " # ",
+        "#|#",
+        " # "
+    ],
+    "key":{
+        "|": {
+            "item": "takunologymod:takunolo_sword"
+        },
+        "#": {
+            "item": "minecraft:arrow"
+        }
+    },
+    "result":{
+        "item": "takunologymod:arrow_sword"
+    }
+}

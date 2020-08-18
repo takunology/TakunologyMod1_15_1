@@ -5,6 +5,8 @@ import jp.takunology.takunologymod.items.Foods;
 import jp.takunology.takunologymod.items.Ingots;
 import jp.takunology.takunologymod.tools.TakunoloTools;
 import jp.takunology.takunologymod.armor.TakunoloArmor;
+import jp.takunology.takunologymod.items.TimesetItems;
+import jp.takunology.takunologymod.tools.ArrowSword;
 
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraft.item.Item;
@@ -26,9 +28,17 @@ public class ItemInit
     }
 
     @SubscribeEvent
+    public static void registerTimesetItems(final RegistryEvent.Register<Item> event)
+    {       
+        event.getRegistry().register(TimesetItems.night_flower);
+        event.getRegistry().register(TimesetItems.noon_flower);
+    }
+
+    @SubscribeEvent
     public static void registerIngots(final RegistryEvent.Register<Item> event)
     {       
         event.getRegistry().register(Ingots.takunolo_ingot);
+        event.getRegistry().register(Ingots.lightning_ingot);
     }
 
     @SubscribeEvent
@@ -48,5 +58,7 @@ public class ItemInit
         event.getRegistry().register(TakunoloArmor.takunolo_chest);
         event.getRegistry().register(TakunoloArmor.takunolo_legs);
         event.getRegistry().register(TakunoloArmor.takunolo_feet);
+
+        event.getRegistry().register(ArrowSword.arrow_sword);
     }
 }

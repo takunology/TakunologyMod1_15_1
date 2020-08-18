@@ -3,9 +3,15 @@
     "item.takunologymod.curry_rice": "カレーライス",
     "item.takunologymod.pizza": "ピザ",
 
+    "item.takunologymod.night_flower": "夜変花",
+    "item.takunologymod.noon_flower": "昼変花",
+
     "item.takunologymod.takunolo_ingot": "たくのろインゴット",
+    "item.takunologymod.lightning_ingot": "雷インゴット",
 
     "item.takunologymod.takunolo_sword": "やたら斬れる剣",
+    "item.takunologymod.arrow_sword": "アローソード",
+
     "item.takunologymod.takunolo_axe": "すごい斧",
     "item.takunologymod.takunolo_hoe": "けっこう耕せるクワ",
     "item.takunologymod.takunolo_pickaxe": "評判のいいツルハシ",
@@ -20,6 +26,10 @@
     "advancements.root.description": "たくのろインゴットを手に入れた",
     "advancements.takunolo_tools.title": "たくのろツール",
     "advancements.takunolo_tools.description": "たくのろインゴットでツールを作った",
+    "advancements.takunolo_armor.title": "たくのろ防具",
+    "advancements.takunolo_armor.description" : "たくのろ防具を作った",
+    "advancements.arrow_tools.title": "矢を撃てる剣",
+    "advancements.arrow_tools.description" : "アローソードを作った",
 
     "block.takunologymod.dice_block": "サイコロブロック",
     "block.takunologymod.takunolo_ore": "たくのろ鉱石",

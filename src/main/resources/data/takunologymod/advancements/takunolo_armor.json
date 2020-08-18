@@ -2,13 +2,13 @@
   "parent": "takunologymod:get_takunolo_ingot",
   "display": {
     "icon": {
-      "item": "takunologymod:takunolo_sword"
+      "item": "takunologymod:takunolo_chest"
     },
     "title": {
-      "translate": "advancements.takunolo_tools.title"
+      "translate": "advancements.takunolo_armor.title"
     },
     "description": {
-      "translate": "advancements.takunolo_tools.description"
+      "translate": "advancements.takunolo_armor.description"
     },
     "frame": "task",
     "show_toast": true,
@@ -16,52 +16,42 @@
     "hidden": false
   },
   "criteria": {
-    "takunolo_axe": {
+    "takunolo_helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "takunologymod:takunolo_axe"
+            "item": "takunologymod:takunolo_helmet"
           }
         ]
       }
     },
-    "takunolo_hoe": {
+    "takunolo_chest": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "takunologymod:takunolo_hoe"
+            "item": "takunologymod:takunolo_chest"
           }
         ]
       }
     },
-    "takunolo_pickaxe": {
+    "takunolo_legs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "takunologymod:takunolo_pickaxe"
+            "item": "takunologymod:takunolo_legs"
           }
         ]
       }
     },
-    "takunolo_shovel": {
+    "takunolo_feet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "takunologymod:takunolo_shovel"
-          }
-        ]
-      }
-    },
-    "takunolo_sword": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "takunologymod:takunolo_sword"
+            "item": "takunologymod:takunolo_feet"
           }
         ]
       }
@@ -69,11 +59,10 @@
   },
   "requirements": [
     [
-      "takunolo_sword",
-      "takunolo_axe",
-      "takunolo_hoe",
-      "takunolo_pickaxe",
-      "takunolo_shovel"
+      "takunolo_helmet",
+      "takunolo_chest",
+      "takunolo_legs",
+      "takunolo_feet"
     ]
   ],
   "rewards": {
