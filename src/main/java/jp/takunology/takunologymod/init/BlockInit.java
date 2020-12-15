@@ -31,6 +31,7 @@ public class BlockInit
         event.getRegistry().register(new BlockItem(DiceBlocks.dice_one, new Item.Properties()
         .group(TakunologyItemGroup.takunologyItemGroup)
         .maxStackSize(64)).setRegistryName("dice_block"));
+
     }
 
     @SubscribeEvent
